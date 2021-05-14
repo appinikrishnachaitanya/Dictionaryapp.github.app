@@ -1,0 +1,99 @@
+*{
+    padding: 0%;
+    margin:0%;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialised;
+}
+
+body
+{
+    font-family: 'David Libre', serif;
+}
+
+.navbar
+{
+    background-color:rgb(74, 45, 128);
+    padding:10px;
+    color:white;
+    
+}
+
+.navbar h3{
+    margin-left: 30vh;
+}
+
+h2
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.input_field 
+{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.input_field input
+{
+    
+    padding: 10px;
+    border:2px solid #dddd;
+    margin-top: 5vh;
+    
+
+
+}
+
+.input_field button
+{
+    padding: 10px 10px;
+    margin-top: 5vh;
+    background-color:rgb(153, 141, 141);
+    color:black;
+    
+}
+
+.no_content 
+    
+
+{
+    margin-top: 8vh;
+    text-align: center;
+}
+
+.content_show
+{
+    margin-top: 8vh;
+    text-align: center;
+    
+}
+
+.suggested
+{
+      background-color: blanchedalmond;
+      color: black;
+      display: inline-block;
+      margin-left: 5vh;
+      margin-top: 8vh;
+      padding: 2px 10px;
+      border-radius: 4px;
+      margin-right: 5vh;
+}
+
+.content_def
+{
+    text-align: center;
+}
+
+
+
+@media (max-width:640px)
+{
+    .navbar h3{
+               text-align: center;
+               margin: 0px;    
+    }
+}
